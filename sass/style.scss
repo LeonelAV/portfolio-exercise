@@ -1,0 +1,102 @@
+h1 {
+  text-align: center;
+  line-height: 10px;
+  	strong {
+  		color: #3A5975;
+  	}
+  	    &:nth-child(3) {
+  			line-height: 55px;
+  	}
+  }
+
+.page-header {
+	margin-top: 125px;
+	background-color: #FFFFFF;
+	border: 1px solid #C1C1C1;
+	  img {
+		border-radius: 50%;
+		display:block;
+		margin: auto;
+		float:initial;
+		margin: -110px auto 50px auto;
+	  }
+}
+
+h2 {
+	padding-top:10px;
+	margin-top: 40px;
+	color:#3B5A76;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.about-me {
+	margin-top: -20px;
+	background-color: #FFFFFF;
+		p {
+			color:#2F3B57;	
+		}	
+	}
+
+.contact-info > p{
+	line-height: 50px;
+	img {
+		margin-right: 20px;
+	}
+}
+
+.experience {
+	margin-top: -20px;
+	background-color: #FFFFFF;
+	.exp-resume {
+		background-color: #EDEDED;
+		margin: 20px auto;
+	}
+}
+
+
+body {
+	background-color: #EDEDED;
+}
+
+.programming {
+	background-color: #FFFFFF;
+	h2 {
+		margin-top: 8px;
+		margin-bottom: 20px;
+
+		@media (min-width:992px){
+			margin-top: 40px;
+		}
+	}
+
+}
+.services{
+	background-color: #FFFFFF;
+	.btn {
+		padding: 0 5px;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	a {
+		font-size: 18px;
+	}
+
+}
+
+.projects {
+	background-color: #FFFFFF;
+	img {
+		padding: 10px 0 10px 10px;
+	}
+}
+
+.foot {
+	padding: 20px 0px 20px 20px;
+	color:#FFFFFF;
+	background-color: #3B5A76;
+}
+
+
+
+
